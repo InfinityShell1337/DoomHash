@@ -1,0 +1,31 @@
+#+TITLE: config
+#+PROPERTY: header-args:emacs-lisp :tangle ./config.el :mkdirp yes
+
+Remember, you do not need to run 'doom sync' after modifying this file!
+
+* Email
+#+begin_src emacs-lisp :tangle yes
+
+(setq user-full-name "John Doe"
+      user-mail-address "john@doe.com")
+
+#+end_src
+* Theme
+#+begin_src emacs-lisp :tangle yes
+
+(setq doom-theme 'doom-dracula)
+;(setq doom-theme 'doom-Iosvkem)
+
+#+end_src
+* Line Numbers
+#+begin_src emacs-lisp :tangle yes
+
+(setq display-line-numbers-type t)
+
+#+end_src
+* Org Directory
+#+begin_src emacs-lisp :tangle yes
+
+(setq org-directory "~/org/")
+
+#+end_src
