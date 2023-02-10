@@ -4,8 +4,6 @@
 (setq doom-theme 'doom-dracula)
 ;(setq doom-theme 'doom-Iosvkem)
 
-(doom/set-frame-opacity 90)
-
 (setq display-line-numbers-type t)
 
 (setq org-directory "~/org/")
