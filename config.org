@@ -6,8 +6,8 @@ Remember, you do not need to run 'doom sync' after modifying this file!
 * Email
 #+begin_src emacs-lisp :tangle yes
 
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "Infinity"
+      user-mail-address "infinity@1337.com")
 
 #+end_src
 * Theme
@@ -16,6 +16,10 @@ Remember, you do not need to run 'doom sync' after modifying this file!
 (setq doom-theme 'doom-dracula)
 ;(setq doom-theme 'doom-Iosvkem)
 
+#+end_src
+* Transparency
+#+begin_src emacs-lisp :tangle yes
+(doom/set-frame-opacity 90)
 #+end_src
 * Line Numbers
 #+begin_src emacs-lisp :tangle yes
