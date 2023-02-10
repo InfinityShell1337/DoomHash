@@ -1,7 +1,7 @@
 #+TITLE: config
 #+PROPERTY: header-args:emacs-lisp :tangle ./config.el :mkdirp yes
 
-Remember, you do not need to run 'doom sync' after modifying this file!
+*Remember, you do not need to run 'doom sync' after modifying this file!*
 
 * Email
 #+begin_src emacs-lisp :tangle yes
